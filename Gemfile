@@ -27,9 +27,18 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+#Using this gem to generate fake data
+gem 'faker'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :test do
+	gem "rspec"
+	gem "pry"
+	gem "rspec-rails"
 end
 
 # Use ActiveModel has_secure_password
