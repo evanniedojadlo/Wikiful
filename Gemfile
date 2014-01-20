@@ -30,6 +30,10 @@ gem 'jbuilder', '~> 1.2'
 #Using this gem to generate fake data
 gem 'faker'
 
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+gem 'therubyracer'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
