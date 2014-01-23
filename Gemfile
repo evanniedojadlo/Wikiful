@@ -39,6 +39,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :production do
+	gem 'rails_12factor'
+end
+
 group :test do
 	gem "rspec"
 	gem "pry"
@@ -47,6 +51,8 @@ end
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.1.2'
+
+ruby "2.0.0"
 
 # Use unicorn as the app server
 # gem 'unicorn'
