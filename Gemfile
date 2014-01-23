@@ -33,6 +33,7 @@ gem 'faker'
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
+gem 'bootstrap_helper'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
