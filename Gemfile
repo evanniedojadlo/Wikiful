@@ -28,7 +28,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 #Using this gem to generate fake data
-gem 'faker'
 
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'
@@ -38,10 +37,6 @@ gem 'bootstrap_helper'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
-end
-
-group :production do
-	gem 'rails_12factor'
 end
 
 group :test do
@@ -54,6 +49,16 @@ end
 gem 'bcrypt-ruby', '~> 3.1.2'
 
 ruby "2.0.0"
+
+
+group :production do
+	gem 'rails_12factor'
+	gem 'faker'
+end
+
+
+
+
 
 # Use unicorn as the app server
 # gem 'unicorn'
